@@ -1,8 +1,9 @@
-/* * * * * * * * * * * * * * * * * * * * *
-//Smoke Test - provided to give you a quick check of your stack code
 #include "Stack.h"
 #include <iostream>
 using namespace std;
+
+/* * * * * * * * * * * * * * * * * * * * *
+//Smoke Test - provided to give you a quick check of your stack code
 int main() {
     Stack myStack;
     myStack.push(10);
@@ -19,6 +20,14 @@ int main() {
 
 // <<<< YOUR solveTowersOfHanoi(n) GOES HERE >>>>
 
+void solveTowersOfHanoi(int n) {
+
+    Stack tower1;
+    Stack tower2;
+    Stack tower4;
+    
+
+}
 
 // * * * * * * * * * * * * * * * * * * * * * * *
 // Use this main.
