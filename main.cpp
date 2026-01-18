@@ -5,8 +5,10 @@ using namespace std;
 
 Stack towerA, towerB, towerC;
 
+// FORMATTING
 string toString(Stack &tower) { return tower.displayToString(); }
 
+// FORMATTING
 void displayTowers(Stack &tower1, Stack &tower2, Stack &tower3) {
   cout << "Tower A: " << setw(15) << left << toString(tower1)
        << " | Tower B: " << setw(15) << left << toString(tower2)
