@@ -19,9 +19,9 @@ public:
   int pop();
   int peek() const;
   bool isEmpty() const;
-  void display(); // Displays the stack contents
-  
+  void display();           // Displays the stack contents
+  string displayToString(); // Returns stack contents as a string
+
   // <<<< Your code here >>>>
-  
 };
 #endif // STACK_H
